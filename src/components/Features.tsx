@@ -2,6 +2,12 @@ import React from "react";
 import { motion } from "motion/react";
 import { Sparkles, Flame, RefreshCw, Scissors, Sparkle } from "lucide-react";
 
+// Import images as ESM modules to ensure Vite processes them correctly for production build
+import imgDialogue from "../assets/images/barber_hero_1782822606740.jpg";
+import imgPurification from "../assets/images/barber_fullscreen_banner_1782824844366.jpg";
+import imgRecovery from "../assets/images/barber_event_photo_1782824861149.jpg";
+import imgPrecision from "../assets/images/style_comma_1782822618686.jpg";
+
 export default function Features() {
   const steps = [
     {
@@ -11,7 +17,7 @@ export default function Features() {
       title: "Visi Sebelum Eksekusi",
       subtitle: "Analisis Bentuk Wajah & Rambut secara Personal",
       description: "Sebelum sebilah gunting menyentuh sehelai rambut pun, kami berdialog. Barber kami akan menganalisis geometri wajah, arah pusaran tumbuh rambut, serta tekstur alami kulit kepala Anda. Di sini, potongan rambut Anda dirancang secara khusus, bukan sekadar dipangkas.",
-      image: "/src/assets/images/barber_hero_1782822606740.jpg",
+      image: imgDialogue,
       alignLeft: true,
       badge: "KONSULTASI GRATIS"
     },
@@ -22,7 +28,7 @@ export default function Features() {
       title: "Rileksasi Tanpa Batas",
       subtitle: "Premium Hair Wash & Scalp Massage Terapeutik",
       description: "Lepaskan semua kepenatan hari ini di bak bilas premium kami. Aliran air bersuhu presisi berpadu dengan pijatan kepala terapeutik yang melancarkan sirkulasi darah. Setiap sisa potongan terkecil dibersihkan sempurna, meninggalkan kesegaran yang mutlak.",
-      image: "/src/assets/images/barber_fullscreen_banner_1782824844366.jpg",
+      image: imgPurification,
       alignLeft: false,
       badge: "SENSORY RELIEF"
     },
@@ -33,7 +39,7 @@ export default function Features() {
       title: "Kesegaran yang Membangkitkan",
       subtitle: "Cold Towel & Premium Hair Tonic Treatment",
       description: "Grooming modern adalah tentang pemulihan energi. Kompres handuk dingin steril yang menyegarkan dahi serta mengecilkan pori-pori kulit wajah Anda seketika. Dilanjutkan dengan pijat tonik rambut premium untuk nutrisi folikel mendalam dan aroma maskulin ikonik.",
-      image: "/src/assets/images/barber_event_photo_1782824861149.jpg",
+      image: imgRecovery,
       alignLeft: true,
       badge: "DEEP HYDRATION"
     },
@@ -44,7 +50,7 @@ export default function Features() {
       title: "Sentuhan Akhir Berkarakter",
       subtitle: "Professional Sculpting dengan Pomade & Clay Terbaik",
       description: "Langkah penutup yang menegaskan identitas Anda. Menggunakan paduan pomade, clay, atau hair powder premium yang disesuaikan dengan kebutuhan rambut Anda. Gaya Anda kini terkunci sempurna, siap melangkah keluar dengan penuh karisma.",
-      image: "/src/assets/images/style_comma_1782822618686.jpg",
+      image: imgPrecision,
       alignLeft: false,
       badge: "SIGNATURE FINISH"
     }

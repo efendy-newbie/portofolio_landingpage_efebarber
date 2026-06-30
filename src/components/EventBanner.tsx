@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "motion/react";
+import eventPhotoImg from "../assets/images/barber_event_photo_1782824861149.jpg";
 
 export default function EventBanner() {
   return (
@@ -7,7 +8,7 @@ export default function EventBanner() {
       {/* Background Event Image */}
       <div className="absolute inset-0 z-0">
         <img
-          src="/src/assets/images/barber_event_photo_1782824861149.jpg"
+          src={eventPhotoImg}
           alt="Efe Barbershop Event and Team"
           referrerPolicy="no-referrer"
           className="w-full h-full object-cover object-center"

@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "motion/react";
+import bannerImg from "../assets/images/barber_fullscreen_banner_1782824844366.jpg";
 
 export default function FullscreenBanner() {
   return (
@@ -7,7 +8,7 @@ export default function FullscreenBanner() {
       {/* Background Fullscreen Image */}
       <div className="absolute inset-0 z-0">
         <img
-          src="/src/assets/images/barber_fullscreen_banner_1782824844366.jpg"
+          src={bannerImg}
           alt="Efe Barbershop Fullscreen Vibe"
           referrerPolicy="no-referrer"
           className="w-full h-full object-cover object-center"

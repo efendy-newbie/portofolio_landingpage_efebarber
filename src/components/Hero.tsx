@@ -2,6 +2,7 @@ import React from "react";
 import { motion } from "motion/react";
 import { Scissors, CheckCircle, Calendar, MessageSquare, Flame } from "lucide-react";
 import { BARBER_INFO } from "../data/barberData";
+import barberHeroImg from "../assets/images/barber_hero_1782822606740.jpg";
 
 interface HeroProps {
   onOpenBooking: () => void;
@@ -58,7 +59,7 @@ export default function Hero({ onOpenBooking }: HeroProps) {
           
           <div className="relative rounded-3xl overflow-hidden aspect-[16/9] sm:aspect-[21/9] bg-[#1a110a] group shadow-2xl">
             <img
-              src="/src/assets/images/barber_hero_1782822606740.jpg"
+              src={barberHeroImg}
               alt="Efe Barbershop Interior"
               referrerPolicy="no-referrer"
               className="w-full h-full object-cover object-center group-hover:scale-101 transition-transform duration-1000"

@@ -1,4 +1,7 @@
 import { Hairstyle, ServiceItem, TestimonialItem, BenefitItem, FeatureItem, ProblemItem } from "../types";
+import styleComma from "../assets/images/style_comma_1782822618686.jpg";
+import styleTextured from "../assets/images/style_textured_1782822630964.jpg";
+import stylePompadour from "../assets/images/style_pompadour_1782822641881.jpg";
 
 export const BARBER_INFO = {
   name: "efe barbershop",
@@ -102,7 +105,7 @@ export const HAIRSTYLES: Hairstyle[] = [
     id: "style-1",
     name: "Korean Comma Hair",
     description: "Gaya rambut paling hits di kalangan anak muda saat ini. Poni melengkung membentuk tanda koma di satu sisi, memberikan kesan smart, modern, dan sangat modis.",
-    image: "/src/assets/images/style_comma_1782822618686.jpg",
+    image: styleComma,
     tags: ["Korea", "Volume", "Trend"],
     difficulty: "Sedang",
     hairType: "wavy",
@@ -113,7 +116,7 @@ export const HAIRSTYLES: Hairstyle[] = [
     id: "style-2",
     name: "Textured Crop Fade",
     description: "Sangat cocok untuk remaja aktif yang menyukai kepraktisan. Bagian atas penuh tekstur berantakan yang keren, dipadukan dengan taper fade super bersih di sisi samping.",
-    image: "/src/assets/images/style_textured_1782822630964.jpg",
+    image: styleTextured,
     tags: ["Short", "Sporty", "Low Maintenance"],
     difficulty: "Mudah",
     hairType: "straight",
@@ -124,7 +127,7 @@ export const HAIRSTYLES: Hairstyle[] = [
     id: "style-3",
     name: "Modern Pompadour Undercut",
     description: "Gaya rambut klasik bervolume tinggi yang dipadukan dengan undercut tajam. Memberikan kesan maskulin, percaya diri, elegan, dan sangat cocok untuk acara formal maupun nongkrong.",
-    image: "/src/assets/images/style_pompadour_1782822641881.jpg",
+    image: stylePompadour,
     tags: ["Classic", "Volume", "Gentleman"],
     difficulty: "Tinggi",
     hairType: "straight",
