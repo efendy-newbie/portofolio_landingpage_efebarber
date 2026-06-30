@@ -11,7 +11,7 @@ export default function Features() {
       title: "Visi Sebelum Eksekusi",
       subtitle: "Analisis Bentuk Wajah & Rambut secara Personal",
       description: "Sebelum sebilah gunting menyentuh sehelai rambut pun, kami berdialog. Barber kami akan menganalisis geometri wajah, arah pusaran tumbuh rambut, serta tekstur alami kulit kepala Anda. Di sini, potongan rambut Anda dirancang secara khusus, bukan sekadar dipangkas.",
-      image: "https://images.unsplash.com/photo-1503951914875-452162b0f3f1?q=80&w=1200&auto=format&fit=crop",
+      image: "/src/assets/images/barber_hero_1782822606740.jpg",
       alignLeft: true,
       badge: "KONSULTASI GRATIS"
     },
@@ -22,7 +22,7 @@ export default function Features() {
       title: "Rileksasi Tanpa Batas",
       subtitle: "Premium Hair Wash & Scalp Massage Terapeutik",
       description: "Lepaskan semua kepenatan hari ini di bak bilas premium kami. Aliran air bersuhu presisi berpadu dengan pijatan kepala terapeutik yang melancarkan sirkulasi darah. Setiap sisa potongan terkecil dibersihkan sempurna, meninggalkan kesegaran yang mutlak.",
-      image: "https://images.unsplash.com/photo-1621605815971-fbc98d665033?q=80&w=1200&auto=format&fit=crop",
+      image: "/src/assets/images/barber_fullscreen_banner_1782824844366.jpg",
       alignLeft: false,
       badge: "SENSORY RELIEF"
     },
@@ -33,7 +33,7 @@ export default function Features() {
       title: "Kesegaran yang Membangkitkan",
       subtitle: "Cold Towel & Premium Hair Tonic Treatment",
       description: "Grooming modern adalah tentang pemulihan energi. Kompres handuk dingin steril yang menyegarkan dahi serta mengecilkan pori-pori kulit wajah Anda seketika. Dilanjutkan dengan pijat tonik rambut premium untuk nutrisi folikel mendalam dan aroma maskulin ikonik.",
-      image: "https://images.unsplash.com/photo-1622286342621-4bd786c2447c?q=80&w=1200&auto=format&fit=crop",
+      image: "/src/assets/images/barber_event_photo_1782824861149.jpg",
       alignLeft: true,
       badge: "DEEP HYDRATION"
     },
@@ -44,7 +44,7 @@ export default function Features() {
       title: "Sentuhan Akhir Berkarakter",
       subtitle: "Professional Sculpting dengan Pomade & Clay Terbaik",
       description: "Langkah penutup yang menegaskan identitas Anda. Menggunakan paduan pomade, clay, atau hair powder premium yang disesuaikan dengan kebutuhan rambut Anda. Gaya Anda kini terkunci sempurna, siap melangkah keluar dengan penuh karisma.",
-      image: "https://images.unsplash.com/photo-1599351431202-1e0f0137899a?q=80&w=1200&auto=format&fit=crop",
+      image: "/src/assets/images/style_comma_1782822618686.jpg",
       alignLeft: false,
       badge: "SIGNATURE FINISH"
     }
