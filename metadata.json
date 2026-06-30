@@ -1,0 +1,6 @@
+{
+  "name": "efe barbershop",
+  "description": "Landing page premium untuk efe barbershop - tempat pangkas rambut modern dengan hasil cukuran bagus, pelayanan terbaik, tempat nyaman, dan harga terjangkau.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

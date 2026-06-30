@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=JetBrains+Mono:wght@400;500;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Playfair Display", serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+  
+  --color-brand-bg: #110b08; /* Luxury deep dark brown espresso background */
+  --color-brand-card: #1c130e; /* Elegant dark mahogany brown for cards/sections */
+  --color-brand-card-light: #281c15; /* Lighter warm brown */
+  --color-brand-gold: #f5efe6; /* Luxury warm cream */
+  --color-brand-gold-dark: #dfcaa7; /* Antique brass gold/cream */
+  --color-brand-gold-light: #fffbf5; /* Ultra light bright ivory */
+  --color-brand-aqua: #dfcaa7; /* Map aqua to antique brass gold/cream for safety */
+  --color-brand-cream: #fbf9f5; /* Pure elegant soft cream */
+  --color-brand-grey-text: #eae2d8; /* Soft warm light cream/beige for text */
+  --color-brand-grey-muted: #a39385; /* Muted warm taupe */
+  --color-brand-line: #261a14; /* Border color using a subtle warm brown */
+}
+
+@layer base {
+  body {
+    background-color: var(--color-brand-bg);
+    color: var(--color-brand-grey-text);
+    font-family: var(--font-sans);
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+  }
+}
+
+/* Custom Scrollbar - Elegant Vintage Dark Style */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0c0b0a;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #26211e;
+  border: 1px solid #0c0b0a;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #c5a880;
+}
+
+/* Elegant luxury styling helpers */
+.glass-effect {
+  background: rgba(20, 18, 17, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid var(--color-brand-line);
+}
+
+.card-hover-effect {
+  transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+  border: 1px solid var(--color-brand-line);
+}
+
+.card-hover-effect:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 30px -10px rgba(0, 0, 0, 0.6);
+  border-color: var(--color-brand-gold);
+}
+
+/* Vintage border styling */
+.vintage-border {
+  border: 1px solid var(--color-brand-line);
+}
+
+.classic-card {
+  border: 1px solid var(--color-brand-line);
+  background-color: var(--color-brand-card);
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.classic-card:hover {
+  border-color: var(--color-brand-gold-dark);
+}
+
+.vintage-grid-pattern {
+  background-size: 60px 60px;
+  background-image: radial-gradient(circle, rgba(197, 168, 128, 0.03) 1px, transparent 1px);
+}
+
